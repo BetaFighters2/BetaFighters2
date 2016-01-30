@@ -7,6 +7,9 @@ public enum BGM_NAME
 {
 	TITLE = 0,
 	GAMEPLAY,
+	HOWTOPLAY,
+	RESULT,
+	CREDITS,
 }
 
 //BGMの名前
