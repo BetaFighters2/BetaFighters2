@@ -1,0 +1,8 @@
+﻿Planner,沼崎 優介,Yusuke Numazaki,プランナー,ぬまざきゆうすけ,ぷらんな
+Programmer,勝又 楓,Kaede Katsumata,プログラマー,かつまたかえで,ぷろぐらま
+Programmer,津田 良太郎,Ryotaro Tsuda,プログラマー,つだりょうたろう,ぷろぐらま
+Programmer,千葉 瑞希,Mizuki Chiba,プログラマー,ちばみずき,ぷろぐらま
+Programmer,山下 公輔,Kousuke Yamashita,プログラマー,やましたこうすけ,ぷろぐらま
+Graphic Artist,加藤木 健太,Kenta Katouki,グラフィックアーティスト,かとうきけんた,あーてぃすと
+Planner,谷川 敬章,Hiroaki Tanigawa,プランナー,たにがわひろあき,ぷらんな
+Leader,石畑 義文,Yoshifumi Ishihata,リーダー,いしはたよしふみ,りーだー

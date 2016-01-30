@@ -1,0 +1,10 @@
+<graph version="v4.05" name="" author="" interval="1" timeMode="asynchronous" distributionMode="fixed speed" speed="100" actions="1" dice="D6" skill="" strategy="" multiplayer="" width="600" height="560" numberOfRuns="100" visibleRuns="25" colorCoding="0">
+  <connection type="Resource Connection" start="1" end="4" label="" position="0.5" color="Black" thickness="2"/>
+  <node symbol="Pool" x="298" y="101" color="Black" caption="Area" thickness="2" captionPos="0.25" activationMode="passive" pullMode="push any" actions="1" resourceColor="Black" startingResources="30" capacity="-1"/>
+  <connection type="Resource Connection" start="5" end="6" label="" position="0.5" color="Black" thickness="2"/>
+  <connection type="State Connection" start="5" end="7" label="" position="0.5" color="Black" thickness="2"/>
+  <node symbol="Drain" x="411" y="101" color="Black" caption="Time" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1"/>
+  <node symbol="Pool" x="192" y="232" color="Black" caption="esa" thickness="2" captionPos="0.5" activationMode="interactive" pullMode="push any" actions="1" resourceColor="Black" startingResources="30" capacity="-1"/>
+  <node symbol="Pool" x="424" y="228" color="Black" caption="BettaWeight(Power)" thickness="2" captionPos="0" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="5" capacity="-1"/>
+  <node symbol="Pool" x="422" y="298" color="Black" caption="BettaSpeed" thickness="2" captionPos="0" activationMode="passive" pullMode="push any" actions="1" resourceColor="Black" startingResources="30" capacity="-1"/>
+</graph>
