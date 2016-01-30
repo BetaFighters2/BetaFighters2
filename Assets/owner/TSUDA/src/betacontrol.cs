@@ -86,7 +86,7 @@ public class betacontrol : MonoBehaviour {
 				newBettaDir = BETTA_DIR.RIGHT;
 			}
 
-			// Play swim se
+			// Play swim SE
 			if (bettaDir != newBettaDir) {
 				SoundManager.PlaySE (SE_NAME.SWIM, gameObject);	
 			}
