@@ -12,7 +12,6 @@ public enum BETTA_DIR
 }
 
 //ベタをコントロールする
-
 public class betacontrol : MonoBehaviour {
 	Rigidbody betarb;
 
@@ -93,4 +92,11 @@ public class betacontrol : MonoBehaviour {
 			bettaDir = newBettaDir;
 		}
 	}
+
+	void OnCollisionEnter(Collision other) {
+		if (other.gameObject.CompareTag ("Player")) {
+			SoundManager.PlaySE (SE_NAME.HIT, gameObject);
+		}
+	}
+
 }

@@ -64,6 +64,8 @@ public class SoundManager : MonoBehaviour {
 	static float endVolume;
 	public float frame;
 
+	static public int stageNum;
+
 	void Awake () {
 		if (GameObject.FindGameObjectsWithTag ("SoundManager").Length >= 2) {
 			Destroy (gameObject);
@@ -155,6 +157,7 @@ public class SoundManager : MonoBehaviour {
 		audio.loop = false;
 		audio.clip = se.se;
 		audio.volume = nowVolume*se.volume;
+
 		audio.Play();
 	}
 

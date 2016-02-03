@@ -38,7 +38,6 @@ public class texttonext : MonoBehaviour {
 	void MoveName()
 	{
 		nametex.text = membername [NumberofMember];
-
 		if (NameofWidth < mostlargesize)
 		{
 			NameofWidth+=speedofscroll;

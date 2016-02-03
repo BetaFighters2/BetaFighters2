@@ -8,6 +8,8 @@ public class credit : MonoBehaviour {
 	string txtLink;
 	public string[] member = new string[8];
 	public float timer;
+
+	public Transform clone;
 	//private GameObject[] cloneMember = new GameObject[8];
 
 	// Use this for initialization
@@ -38,8 +40,13 @@ public class credit : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (Input.GetKey (KeyCode.X))
+		{
+			Instantiate (clone, clone.transform.position, Quaternion.identity);
+		}
+
 		timer += Time.deltaTime;
-		if(timer > 7.5f){
+		if(timer > 20.0f){
 			Application.LoadLevel ("MainScene");
 		}
 	}

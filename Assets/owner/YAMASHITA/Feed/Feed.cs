@@ -4,7 +4,7 @@ using System.Collections;
 
 //えさのスクリプト
 public class Feed : MonoBehaviour {
-	public GameObject obj;
+	public GameObject[] obj = new GameObject[2];
 	//public Canvas canvas;
 	private Vector3[] feed_pos = new Vector3[10];	 //それぞれのポジション
 
@@ -13,7 +13,7 @@ public class Feed : MonoBehaviour {
 
 	private bool setTime;	 						 //タイム, ポジションを決めたときのフラグ
 	public float MinTimer = 0f,MaxTimer = 1f;		 //発射までの最小待ち時間と最大待ち時間
-	private int MaxFeedCount = 10; 				     //一度に出すえさの最大数
+	private int MaxFeedCount = 2; 				     //一度に出すえさの最大数
 	public float waitTimer = 0f, timer = 0f;
 	private GameManager manager;
 	private int count=0;
@@ -54,8 +54,8 @@ public class Feed : MonoBehaviour {
 			feed_pos[i] = new Vector3 (Random.Range (Min_X, Max_X), 
 									   Random.Range (Min_Y, Max_Y),
 									   0);
-
-			GameObject newObj = Instantiate (obj, 
+			int j = Random.Range (0, 2);
+		GameObject newObj = Instantiate (obj[j], 
 				                             feed_pos [i], 
 				                             Quaternion.identity) as GameObject;
 		} 
